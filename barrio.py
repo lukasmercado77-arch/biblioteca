@@ -624,7 +624,7 @@ def prestar_libro():
         "fecha_devolucion": None,
         "estado": "Activo",
         "multa": 0,
-        "multas_pagadas": 0,
+        "multa_pagada": 0,
         "renovaciones": 0, 
     })
     libro["disponible"] = False
